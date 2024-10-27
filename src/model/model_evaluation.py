@@ -19,7 +19,7 @@ logger = logging.getLogger('model_evaluation')
 logger.setLevel('DEBUG')
 
 console_handler = logging.StreamHandler()
-console_handler.setLevel('DEBUG')
+console_handler.setLevel('DEBUG') 
 
 file_handler = logging.FileHandler('model_evaluation_errors.log')
 file_handler.setLevel('ERROR')
