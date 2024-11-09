@@ -2,7 +2,7 @@ name : CI Pipeline
 
 on : push
 
-Jobs:
+jobs:
   Project - testing :
     runs-on : ubuntu-latest
 
