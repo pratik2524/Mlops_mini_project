@@ -68,6 +68,6 @@ jobs:
       - name : Push Docker Image to Docker Hub
         if : success()
         run : |
-          docker push ${{ secrets.DOCKER_HUB_USERNAME }}/emotion1:latest 
+          docker push ${{ secrets.DOCKER_HUB_USERNAME }}/emotion1:latest
 
         
